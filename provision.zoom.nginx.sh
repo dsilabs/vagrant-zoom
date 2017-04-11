@@ -35,7 +35,7 @@ server {
 
     # Serve a static file (ex. favicon) outside static dir.
     location = /favicon.ico  {
-        root /work/web/www/static/zoom/images/favicon.ico;
+        alias /work/web/www/static/zoom/images/favicon.ico;
     }
 
     # Proxying connections to application servers
